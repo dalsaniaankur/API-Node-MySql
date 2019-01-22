@@ -1,0 +1,28 @@
+{
+  "name": "test-name",
+  "version": "1.0.0",
+  "description": "testing purpose",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "test",
+    "app"
+  ],
+  "author": "Test Developer",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "express-generator": "^4.16.0",
+    "jade": "^1.11.0",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
